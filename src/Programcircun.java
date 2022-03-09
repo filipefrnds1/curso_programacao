@@ -12,18 +12,18 @@ public class Programcircun {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		Calculate calc = new Calculate();
+		//Calculate calc = new Calculate();
 		
 		System.out.println("Enteder radius: ");
 		double radius = sc.nextDouble();
 		
-		double c = calc.circumference(radius);
+		double c = Calculate.circumference(radius);
 		
-		double v = calc.volume(radius);
+		double v = Calculate.volume(radius);
 		
 		System.out.printf("Circumference: %.2f%n", c);
 		System.out.printf("Volume: %.2f%n", v);
-		System.out.printf("PI value: %.2f%n", calc.PI);
+		System.out.printf("PI value: %.2f%n", Calculate.PI);
 		
 			
 		
