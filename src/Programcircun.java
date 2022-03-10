@@ -10,6 +10,7 @@ public class Programcircun {
 		
 		Locale.setDefault(Locale.US);
 		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
 		//Calculate calc = new Calculate();
